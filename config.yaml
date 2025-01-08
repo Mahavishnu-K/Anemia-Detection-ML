@@ -1,0 +1,16 @@
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  labels: "data/labels/"
+  results: "results/"
+
+matlab:
+  script_folder: "matlab/" 
+  functions:
+    - "process_image.m"
+    - "feature_extraction.m"
+    - "segmentation.m"
+
+model:
+  classifier: "models/trained_classifier.pkl"  
+  segmentation_model: "models/segmentation_model.h5"
